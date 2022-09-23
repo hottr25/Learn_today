@@ -12,7 +12,7 @@ class Joke
         # parse the response data and get the joke
         body = JSON.parse(response.body)
         # save the parsed joke and display it to the user
-        body['data']['joke']
+        body['joke']
         # generate a new joke everytime the program is ran
     end
 end
