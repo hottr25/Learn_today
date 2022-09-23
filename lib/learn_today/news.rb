@@ -22,8 +22,3 @@ class News
     end
 end
 
-# initialize or create method to get news
-# make an http request to the api endpoint
-# parse the response data and get the news
-# save the parsed news and display it to the user
-# generate a news story everytime the program is ran
